@@ -1,0 +1,109 @@
+/* Reset and basic styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Biko_Regular';
+}
+
+body {
+    font-family: 'Biko_Regular';
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 16px; /* Set a base font size for better responsiveness */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #3498db;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+/* Section styles */
+section {
+    padding: 30px 0;
+}
+
+/* Project gallery styles */
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 45%;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 8px;
+        margin-bottom: 5px;
+    }
+
+    .project {
+        width: 100%;
+    }
+}
+
