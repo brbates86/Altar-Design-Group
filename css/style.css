@@ -10,18 +10,18 @@ body {
     font-family: 'Biko_Regular';
     background-color: #f8f8f8;
     color: #333;
-    font-size: 16px; /* Set a base font size for better responsiveness */
+    font-size: 15px; /* Set a base font size for better responsiveness */
 }
 
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 /* Header styles */
 header {
-    background-color: #3498db;
+    background-color: #581845;
     text-align: center;
     padding: 20px 0;
 }
@@ -41,7 +41,7 @@ header img {
 
 /* Navigation styles */
 nav {
-    background-color: #3498db;
+    background-color: #581845;
     text-align: center;
 }
 

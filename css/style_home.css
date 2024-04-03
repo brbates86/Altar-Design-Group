@@ -11,16 +11,17 @@ body {
     flex-direction: column;
     min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
     margin: 0;
+    font-family: Biko;
 }
 
 hr {
-    border: 1px solid #3498db; 
+    border: 1px solid #581845; 
     margin: 20px 0; 
 }
 
 header {
-    background-color: #ffffff;
-    color: #2980b9;
+    background-color: #581845;
+    color: #581845;
     text-align: center;
     padding: 20px 0;
 }
@@ -39,7 +40,7 @@ nav {
 }
 
 nav a {
-    color: #2980b9;
+    color: #581845;
     
 }
 
@@ -55,6 +56,6 @@ section {
 
 footer {
     background-color: #ffffff;
-    color: #2980b9;
+    color: #ff5733;
     text-align: center;
 }

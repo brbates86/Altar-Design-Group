@@ -7,10 +7,11 @@ body {
     flex-direction: column;
     min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
     margin: 0;
+    font-family: Biko;
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #581845;
     color: #2980b9;
     text-align: center;
     padding: 20px 0;
@@ -30,7 +31,7 @@ nav {
 }
 
 nav a {
-    color: #2980b9;
+    color: #581845;
 }
 
 .project-gallery {
@@ -59,12 +60,12 @@ section {
 /* Style for the contact information section */
 .contact-info {
     margin-top: 20px;
-    color: #777;
+    color: #581845;
 }
 
 /* Style for hyperlinks in the contact information section */
 .contact-info a {
-    color: #3498db;
+    color: #581845;
     text-decoration: none;
 }
 
@@ -75,5 +76,5 @@ section {
 
 footer {
     background-color: #ffffff;
-    color: #2980b9;
+    color: #581845;
 }

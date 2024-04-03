@@ -16,13 +16,13 @@ body {
 
 
 hr {
-    border: 1px solid #3498db; 
+    border: 1px solid #581845; 
     margin: 20px 0; 
 }
 
 header {
-    background-color: #fefefe;
-    color: #2980b9;
+    background-color: #581845;
+    color: #581845;
     text-align: center;
     padding: 20px 0;
 }
@@ -62,7 +62,7 @@ nav {
 }
 
 nav a {
-    color: #3498db;
+    color: #581845;
 }
 
 nav li {
@@ -77,5 +77,5 @@ section {
 
 footer {
     background-color: #ffffff;
-    color: #2980b9;
+    color: #ff5733;
 }
